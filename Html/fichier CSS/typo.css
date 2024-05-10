@@ -13,18 +13,24 @@ h1 {
   font-size: 4rem;
   text-shadow: 2px 1px 1px #feffbe;
   font-family: "Sedan SC", serif;
+  text-align: center;
+  color: #948bff;
 }
 
 h2 {
   padding-bottom: 2rem;
   font-size: 2rem;
   text-shadow: 2px 1px 1px #feffbe;
-
-  font-family: "Briem Hand", cursive;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #948bff;
 }
 
 .sous {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
 }
 
 p {
@@ -33,10 +39,6 @@ p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
   color: #4f1bbf;
   font-family: "Dancing Script", cursive;
-}
-
-.pageone {
-  font-family: "Sedan SC", serif;
 }
 
 .menu {
@@ -49,4 +51,33 @@ a {
 
 a:hover {
   cursor: url('../img samourai/curseur.png'), auto;
+  color: #feffbe;
+}
+footer {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #cbffe6;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.real {
+  font-size: 1.2rem;
+}
+
+.bushido {
+  text-align: left;
+  padding-left: 5rem;
+}
+
+ul li {
+  margin-bottom: 0.62rem;
+  font-family: "Sedan SC", serif;
+}
+
+.titrebushi {
+  padding-left: 1.5rem;
 }
