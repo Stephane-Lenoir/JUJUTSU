@@ -1,0 +1,114 @@
+.samurai-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.topLeftViolet,
+.bottomRightViolet {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img samourai/BAMBOU.PNG'); /* remplacez 'votre-image.jpg' par le chemin d'accès à votre image */
+  background-size: cover;
+  background-position: center;
+  transition: all 5s ease;
+}
+
+.topLeftViolet {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.bottomRightViolet {
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+.samurai {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  pointer-events: auto; /* réactiver les événements de souris pour les images de samouraï */
+}
+
+.samurai-1 {
+  animation: move-samurai-1 3s forwards;
+  width: 155rem;
+  height: auto;
+  padding-top: 25rem;
+}
+
+.samurai-2 {
+  animation: move-samurai-2 2s forwards 3s;
+  width: 155rem;
+  height: auto;
+  padding-top: 20rem;
+}
+
+.samurai-3 {
+  animation: move-samurai-3 3s forwards 5s;
+  width: 155rem;
+  height: auto;
+  padding-top: 25rem;
+}
+
+@keyframes move-samurai-1 {
+  0% {
+    visibility: visible;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes move-samurai-2 {
+  0% {
+    visibility: hidden;
+  }
+
+  1% {
+    visibility: visible;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes move-samurai-3 {
+  0% {
+    visibility: hidden;
+  }
+
+  1% {
+    visibility: visible;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
