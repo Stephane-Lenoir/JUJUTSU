@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="./fichier CSS/style.css">
   <link rel="stylesheet" href="./fichier CSS/stylepageaccueil.css">
   <link rel="stylesheet" href="./fichier CSS/typo.css">
+  <link rel="stylesheet" href="./fichier CSS/info.css">
+  <script src="./fichier JS/info.js" defer></script>
 </head>
 
 <body>
@@ -32,8 +34,8 @@
       <p class="menu"><a href="contac.html">Contact</a></p>
     </nav>
   </div>
-  <div class="bushido">
-    <ul>
+  <div class="bushido-bg">
+    <ul class="bushido">
       <li class="titrebushi">
         <strong>Bushido "武士道"</strong>
       </li>
@@ -51,6 +53,39 @@
       <li>Amitié, bienveillance</li>
     </ul>
   </div>
+  <p class="tirecarousel">Fête des enfants</p>
+
+  <div id="carousel-container" class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img enfants/image1.webp" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image2.webp" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image3.webp" alt="Image 3">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image4.webp" alt="Image 4">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image5.webp" alt="Image 5">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image7.webp" alt="Image 6">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image8.webp" alt="Image 7">
+      </div>
+      <div class="carousel-item">
+        <img src="./img enfants/image12.webp" alt="Image 8">
+      </div>
+    </div>
+    <button class="prev-button">&#10094;</button>
+    <button class="next-button">&#10095;</button>
+  </div>
+  
 </body>
 
 <footer>
