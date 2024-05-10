@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
   <link rel="stylesheet" href="./fichier CSS/style.css">
   <link rel="stylesheet" href="./fichier CSS/stylepageaccueil.css">
   <link rel="stylesheet" href="./fichier CSS/typo.css">
-  <script src="./index.js" defer></script>
+  <script src="./fichier JS/index.js" defer></script>
 </head>
+
 <body>
   <div class="samurai-container">
     <div class="topLeftViolet"></div>
@@ -60,15 +62,12 @@
         <p class="menu"><a href="technique.html">La technique</a></p>
         <p class="menu"><a href="contac.html">Contact</a></p>
       </nav>
+    </div>
+    <footer>
       <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>
       <p class="real">© Construit par Fanster.Dev</p>
-    </div>
-    <main>
-
-    </main>
-    <footer>
-
     </footer>
   </div>
 </body>
+
 </html>
