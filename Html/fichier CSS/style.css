@@ -5,13 +5,6 @@
   color: #4f1bbf;
 }
 
-p {
-  padding-bottom: 2rem;
-  font-size: 1.8rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
-  color: #4f1bbf;
-}
-
 button {
   padding: 0.5rem 0.8rem;
   background-color: #f294d9;
@@ -27,7 +20,7 @@ button {
   /* autres propriétés CSS */
 }
 #enterButton:hover {
-  cursor: url('./img samourai/curseur.png'), auto;
+  cursor: url('../img samourai/curseur.png'), auto;
 }
 
 .open {
