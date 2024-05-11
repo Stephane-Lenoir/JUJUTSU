@@ -13,9 +13,10 @@
   }
   
   .imgtitre {
-    width: 100%;
-    max-width: 100vw;
+    width: 90%;
+    max-width: 90vw;
     height: auto;
+    padding-left: 5rem;
   }
   
   @media (max-width: 768px) {
@@ -25,18 +26,6 @@
     }
   }
   
-  .titre1 {
-    text-align: center;
-    color: #948bff;
-  }
-  
-  .titre2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    color: #948bff;
-  }
-
   .content-container {
     width: 100%;
     display: flex;
@@ -44,12 +33,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
- .sous {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    font-size: 1rem;
-  }
-  
+   
   .nav-container {
     width: 100%;
     display: flex;
@@ -60,13 +44,15 @@
   .vaflex {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    background-color: #cbffe6;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   
-  .deuxmille {
-    width: 100%;
-    text-align: center;
-  }
+ 
   

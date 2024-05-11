@@ -55,7 +55,8 @@
 }
 
 #carousel-container {
-  margin-bottom: 2.5rem; /* Ajoute une marge en bas du conteneur du carrousel */
+  margin-bottom: 2.5rem;
+  /* Ajoute une marge en bas du conteneur du carrousel */
 }
 
 .tirecarousel {
@@ -63,10 +64,17 @@
   font-size: 2.5rem;
 }
 
+.bushido-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .bushido-bg {
   position: relative;
   width: 300px;
   padding: 20px;
+  margin-right: 20px;
 }
 
 .bushido-bg::before {
@@ -81,19 +89,22 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.2; /* Ajuste la transparence de l'image de fond */
+  opacity: 0.2;
+  /* Ajuste la transparence de l'image de fond */
 }
 
 .bushido {
   text-align: left;
   padding-left: 5rem;
   color: #613596;
-  position: relative; /* Permet de positionner le contenu au-dessus du pseudo-élément ::before */
-  z-index: 1; /* Positionne le contenu au-dessus du pseudo-élément ::before */
+  position: relative;
+  /* Permet de positionner le contenu au-dessus du pseudo-élément ::before */
+  z-index: 1;
+  /* Positionne le contenu au-dessus du pseudo-élément ::before */
 }
 
-li:hover {
- color: #ffcfea;
+#bushihhover:hover {
+  color: #ffcfea;
 }
 
 ul li {
@@ -102,5 +113,75 @@ ul li {
 }
 
 .titrebushi {
-  padding-left: 1rem;
+  padding-left: 2rem;
+}
+
+.bushido-text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 1.5rem;
+}
+
+.titletabtwo {
+  font-family: Merriweather, sans-serif;
+  padding: 0;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #049dd9;
+  text-decoration: underline #049dd9;
+}
+
+.tiltesection {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  text-decoration: underline #049dd9;
+  font-weight: bold;
+}
+
+.adress {
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.adress:hover {
+  transform: scale(1.1);
+}
+
+.hourly {
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.hourly:hover {
+  transform: scale(1.1);
+}
+
+.contact:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+.contacttiltle {
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  text-decoration: underline #049dd9;
+  font-weight: bold;
+}
+
+.namedeboffle {
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.numberphone {
+  color: #049dd9;
+  font-size: 1.4rem;
 }

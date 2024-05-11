@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="./fichier CSS/stylepageaccueil.css">
   <link rel="stylesheet" href="./fichier CSS/typo.css">
   <link rel="stylesheet" href="./fichier CSS/info.css">
-  <script src="./fichier JS/info.js" defer></script>
 </head>
 
 <body>
@@ -34,25 +33,50 @@
       <p class="menu"><a href="contac.html">Contact</a></p>
     </nav>
   </div>
-  <div class="bushido-bg">
-    <ul class="bushido">
-      <li class="titrebushi">
-        <strong>Bushido "武士道"</strong>
-      </li>
-      <li>Code d'honneur du samouraï</li>
-      <li>Courage</li>
-      <li>Bonté, humanité</li>
-      <li>Politesse</li>
-      <li>Loyauté</li>
-      <li>Désintéressement</li>
-      <li>Honneur</li>
-      <li>Fidélité</li>
-      <li>Modestie</li>
-      <li>Respect</li>
-      <li>Contrôle de soi</li>
-      <li>Amitié, bienveillance</li>
-    </ul>
+  <div class="bushido-container">
+    <div class="bushido-bg">
+      <ul class="bushido">
+        <li id="bushihhover" class="titrebushi">
+          <strong>Bushido "武士道"</strong>
+        </li>
+        <li id="bushihhover">Code d'honneur du samouraï</li>
+        <li id="bushihhover">Courage</li>
+        <li id="bushihhover">Bonté, humanité</li>
+        <li id="bushihhover">Politesse</li>
+        <li id="bushihhover">Loyauté</li>
+        <li id="bushihhover">Désintéressement</li>
+        <li id="bushihhover">Honneur</li>
+        <li id="bushihhover">Fidélité</li>
+        <li id="bushihhover">Modestie</li>
+        <li id="bushihhover">Respect</li>
+        <li id="bushihhover">Contrôle de soi</li>
+        <li id="bushihhover">Amitié, bienveillance</li>
+      </ul>
+    </div>
+
+    <div class="bushido-text">
+      <p class="titletabtwo">Retrouvez nous</p>
+      <ul class="adress">
+        <li class="tiltesection">Adresse</li>
+        <li>Gymnase Municipal Robert LEFOLL</li>
+        <li>1, Rue des Carrouges</li>
+        <li>77124 – Crégy-Les-Meaux</li>
+      </ul>
+      <ul class="hourly">
+        <li class="tiltesection">Heures d’ouverture</li>
+        <li>Tous les mardis:</li>
+        <li>8h30 19h45 : Enfants</li>
+        <li>20h00–21h45 : Adultes et Ados</li>
+        <li>Tous les vendredis:</li>
+        <li>20h00–21h45 : Adultes et Ados</li>
+      </ul>
+      <ul class="contact">
+        <li class="contacttiltle">Contact</li>
+        <li><span class="namedeboffle">M.DEBOFFLE</span> <samp class="numberphone">: 06 89 77 63 64</samp></li>
+      </ul>
+    </div>
   </div>
+<!--
   <p class="tirecarousel">Fête des enfants</p>
 
   <div id="carousel-container" class="carousel">
@@ -85,7 +109,7 @@
     <button class="prev-button">&#10094;</button>
     <button class="next-button">&#10095;</button>
   </div>
-  
+-->
 </body>
 
 <footer>

@@ -43,7 +43,7 @@
       <h2 class="titre2">Méthode Wajutsu sans compétition</h2>
       <div class="page-container">
         <div class="banner-container">
-          <img class="imgtitre hidden" src="./img samourai/baniere.webp" alt="Dojo au millieu des arbres">
+          <img class="imgtitre hidden" src="./img samourai/baniere.webp" alt="mont fuji">
         </div>
       </div>
       <div class="content-container">
