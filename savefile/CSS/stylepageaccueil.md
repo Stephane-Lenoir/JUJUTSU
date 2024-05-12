@@ -47,6 +47,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #cbffe6;
+    border-radius: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 85%;

@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="./fichier CSS/style.css">
     <link rel="stylesheet" href="./fichier CSS/stylepageaccueil.css">
     <link rel="stylesheet" href="./fichier CSS/typo.css">
+    <link rel="stylesheet" href="./fichier CSS/info.css">
     <title>Club</title>
 </head>
-<!--ajouter sous onglet "Le dojo" et "l'encadrement"  -->
-
 <body>
     <main>
         <header>
@@ -20,8 +19,8 @@
             <h2 class="titre2">Méthode Wajutsu sans compétition</h2>
             <img class="imgtitre" src="./img samourai/baniere.webp" alt="Dojo au millieu des arbres">
             <h3 class="sous"> <a
-                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
-                target="_blank">Crégy-les-Meaux</a></h3>
+                    href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
+                    target="_blank">Crégy-les-Meaux</a></h3>
         </header>
         <div>
             <nav class="vaflex">
@@ -34,44 +33,49 @@
                 <p class="menu"><a href="contac.html">Contact</a></p>
             </nav>
         </div>
-        <p>
-            Le Bureau
-            – Président : M. Jean-Paul GRAVALLON
+        <div class="club-history">
+            <p id="title-history">Histoire du club</p>
+            <p class="texthistroy">L'Avenir Crégy Sports Loisirs (A.C.S.L.) a été créé en 1990 à l'initiative de la
+                municipalité de
+                Crégy-Les-Meaux. Cette association sportive regroupe plusieurs sections sportives, dont celle du
+                Ju-Jutsu Traditionnel – Méthode Wa-Jutsu, qui a débuté ses fonctions le 09 octobre 1992.</p>
+            <p class="texthistroy">Depuis sa création, notre section a formé de nombreux pratiquants, dont plusieurs
+                Ceintures Noires à
+                lisérés violets, modèle déposé par l’Académie Européenne de Ju-Jitsu Traditionnel (A.E.J.T.). Nous
+                sommes fiers de participer activement à la vie de la commune en animant des stands lors de
+                manifestations locales.</p>
+            <p class="texthistroy">L'A.C.S.L. Crégy est placé sous l'égide de l'A.E.J.T., ce qui garantit à nos
+                adhérents une pratique du
+                Ju-Jutsu Traditionnel de qualité, encadrée par des professeurs diplômés et expérimentés. Notre club est
+                ouvert à tous, débutants ou confirmés, et nous accueillons les pratiquants à partir de 6 ans.</p>
+            <p id="texthistroy-come" class="texthistroy">
+                Rejoignez-nous pour découvrir notre discipline et partager notre passion pour le Ju-Jutsu Traditionnel.
+                <a href="contac.html">Contactez-nous pour plus d'informations.</a>
+            </p>
+        </div>
+        <div>
+            <h2 class="Bureautiltle">Le dojo :</h2>
+            <ul class="dojoaddress">
+                <li>Notre dojo est situé à l’intérieur du Gymnase municipal de <samp> <a
+                            href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
+                            class="adresscolor2" target="_blank">Crégy-les-Meaux</a> </samp> . Voici notre adresse :
+                </li>
+                <li> <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
+                        class="adresscolor2" target="_blank">Gymnase Municipal Robert LEFOLL</li>
+                <li>1, Rue des Carrouges</li>
+                <li>77124 – Crégy-Les-Meaux</li></a>
+            </ul>
+        </div>
+        <div class="dojo-photos">
+            <img src="./autres images/gymnase.webp" alt="Gymnase Robert Le Foll">
+            <img src="./autres images/entree.webp" alt="Porte d'entrée du Dojo">
+        </div>
 
-            – Secrétaire : M. Romain MOREAU
-
-            – Trésorière : Mme Patricia DEBOFFLE
 
 
-
-            L’encadrement technique
-            – Directeur technique: M. Bruno DEBOFFLE ( Maître »Okuden-Shi-Han » de Ju-Jutsu Traditionnel de l’A.E.J.T. )
-
-            – Assistant technique : M. Wilfrid PRIEUR ( 3ème stade des valeurs de Ju-Jutsu Traditionnel de l’A.E.J.T. )
-
-            ( Titre « Hon-Mokuroku ».)
-
-            Brevets
-            Nos encadrants sont tous titulaires d’un Brevet de Fin de Formation, délivrée par l’Académie Européenne de
-            Ju-Jitsu Traditionnel.
-
-            Ils suivent chaque année une formation de cadre placée sous la responsabilité de notre directeur technique
-            Maître Jacques-Jean QUERO, professeur de Judo, Ju-Jutsu et méthodes de combat assimilées, diplômé d’état et
-            du Japon, légalement déclaré auprès du ministère de la jeunesse.
-        </p>
-
-        <p>Le dojo
-            Il se trouve à l’intérieur du Gymnase municipal de Crégy-les-Meaux.
-
-
-
-            Adresse :
-
-            Gymnase Municipal Robert LEFOLL
-            1, Rue des Carrouges
-            77124 – Crégy-Les-Meaux
-
-        </p>
-        <b>page2</b>
+        <footer>
+            <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>
+            <p class="real">© Construit par Fanster.Dev</p>
+        </footer>
     </main>
 </body>

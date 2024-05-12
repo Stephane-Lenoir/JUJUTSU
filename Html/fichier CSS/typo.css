@@ -97,7 +97,8 @@ footer {
   max-width: 100%;
   height: auto;
   margin-left: 10px;
-  position: relative; /* Ajout de la propriété position relative à l'image */
+  position: relative;
+  /* Ajout de la propriété position relative à l'image */
 }
 
 .piturejujutsu img {
@@ -106,7 +107,8 @@ footer {
 }
 
 .legende-container {
-  position: absolute; /* Ajout d'un conteneur pour la légende avec position absolue */
+  position: absolute;
+  /* Ajout d'un conteneur pour la légende avec position absolue */
   bottom: 0;
   right: 0;
   padding: 5px;
@@ -116,7 +118,7 @@ footer {
   color: #948bff;
   font-family: Merriweather, sans-serif;
   font-size: 1.2rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   background-color: #feffbef5;
   padding-bottom: 0;
 }
@@ -125,7 +127,7 @@ footer {
   color: #feffbe;
 }
 
-.ju-jutsu-text{
+.ju-jutsu-text {
   font-family: Merriweather, sans-serif;
   color: #04bf7b;
   font-size: 1.4rem;
@@ -134,13 +136,38 @@ footer {
 }
 
 .ju-jutsu-text1 {
-    font-family: Merriweather, sans-serif;
-    color: #04bf7b;
-    font-size: 1.4rem;
-    margin-bottom: 0.2rem;
-    margin-right: 20%;
+  font-family: Merriweather, sans-serif;
+  color: #04bf7b;
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+  margin-right: 20%;
 }
 
 .quero {
-  color:#948bff;
+  color: #948bff;
+}
+
+.texthistroy {
+  color: #049dd9;
+  font-family: Merriweather, sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2.5em;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+#title-history {
+  padding-top: 2rem;
+  text-decoration: underline;
+  color: #049dd9;
+  font-family: "Sedan SC", sans-serif;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+#texthistroy-come:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+  color: #948bff;
 }

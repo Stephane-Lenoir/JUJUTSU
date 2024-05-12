@@ -35,32 +35,32 @@
                 </nav>
             </div>
             <div class="ju-jutsu-container">
-                <div class="piturejujutsu"> <a href="https://fr.wikipedia.org/wiki/Miyamoto_Musashi" target="_blank">
-                    <img src="./autres images/Musashi.webp" alt="Miyamoto Musashi"> <p class="legende">Miyamoto Musashi</p></a>
+                <div class="piturejujutsu"> <a href="https://www.aejt-jjquero.com/" target="_blank">
+                        <img src="./autres images/quero_03_th.webp" alt="Maître Quero">
+                        <p class="legende">Maître J.J. QUERO</p>
+                    </a>
                 </div>
-                    <p class="ju-jutsu-text1">Le Ju-Jutsu est un ancien art Japonais de self-défense vieux de plusieurs
-                        siècles.</p>
-                    <p class="ju-jutsu-text1">Art suprême approuvé par l’empereur, il était l’art de combat des
-                        samouraïs.
-                    </p>
-                    <p class="ju-jutsu-text">Aujourd’hui, il est considéré comme l’un des systèmes d’arts martiaux enseigné
-                        parmi les plus efficaces et les plus adaptés.</p>
-                    <p class="ju-jutsu-text">Le Ju-Jutsu est un ensemble composé de projections, systèmes de clés,
-                        d’attaques aux centres nerveux, de manipulations des articulations et techniques de coups de pieds
-                        et de mains aux points vitaux du corps.</p>
-                    <p class="ju-jutsu-text">La méthode Wa-Jutsu (Méthode A.E.J.T) est devenu un art de paix, créée par
-                        <a class="quero" href="https://www.aejt-jjquero.com/quero.htm" target="_blank">Maître Jacques–Jean
-                            QUERO</a>, professeur diplômé d’état et du Japon.
-                    </p>
-                    <p class="ju-jutsu-text">Suite aux études personnelles qu’il a mené dans de vieilles écoles
-                        traditionnelles, il propose au pratiquant une activité physique, sportive, culturelle pour une
-                        meilleure compréhension du principe fondamentale des Arts martiaux au Japon « WA » qui signifie «
-                        ACCORD ET PAIX » permettant la découverte et la manifestation du « KI ».
-                    </p>
+                <p class="ju-jutsu-text1">Le Ju-Jutsu est un ancien art Japonais de self-défense vieux de plusieurs
+                    siècles.</p>
+                <p class="ju-jutsu-text1">Art suprême approuvé par l’empereur, il était l’art de combat des
+                    samouraïs.
+                </p>
+                <p class="ju-jutsu-text">Aujourd’hui, il est considéré comme l’un des systèmes d’arts martiaux enseigné
+                    parmi les plus efficaces et les plus adaptés.</p>
+                <p class="ju-jutsu-text">Le Ju-Jutsu est un ensemble composé de projections, systèmes de clés,
+                    d’attaques aux centres nerveux, de manipulations des articulations et techniques de coups de pieds
+                    et de mains aux points vitaux du corps.</p>
+                <p class="ju-jutsu-text"> <a href="https://www.aejt-jjquero.com/wa_jutsu.htm" target="_blank">La méthode Wa-Jutsu </a><a href="https://www.aejt-jjquero.com/quero.htm#ancre3" target="_blank">(Méthode A.E.J.T)</a>  est devenu un art de paix, créée par
+                    <a class="quero" href="https://www.aejt-jjquero.com/quero.htm" target="_blank">Maître Jacques–Jean
+                        QUERO</a>, professeur diplômé d’état et du Japon.
+                </p>
+                <p class="ju-jutsu-text">Suite aux études personnelles qu’il a mené dans de vieilles écoles
+                    traditionnelles, il propose au pratiquant une activité physique, sportive, culturelle pour une
+                    meilleure compréhension du principe fondamentale des Arts martiaux au Japon « WA » qui signifie «
+                    ACCORD ET PAIX » permettant la découverte et la manifestation du « KI ».
+                </p>
             </div>
-
         </div>
-
         <footer>
             <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>
             <p class="real">© Construit par Fanster.Dev</p>

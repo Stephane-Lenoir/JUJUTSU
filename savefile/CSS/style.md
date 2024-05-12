@@ -1,13 +1,6 @@
-.pageone {
-  padding-bottom: 2rem;
-  font-size: 1.8rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
-  color: #4f1bbf;
-}
-
 button {
   padding: 0.5rem 0.8rem;
-  background-color: #f294d9;
+  background-color: #cbffe6;
   border-radius: 1.5rem;
   color: #4acad9;
   border-color: #4f1bbf;
@@ -19,8 +12,11 @@ button {
   /* définir une valeur de z-index supérieure à celle de la div "samurai-container" */
   /* autres propriétés CSS */
 }
+
 #enterButton:hover {
   cursor: url('../img samourai/curseur.png'), auto;
+  color: #feffbe;
+  background-color: #bfb9ff;
 }
 
 .open {
@@ -69,7 +65,6 @@ button {
   /*color: rgba(230, 109, 10, 0.664);*/
   transition: transform 1s ease;
 }
-
 
 .fade-out-rotate-container {
   animation: fade-out-rotate 6s forwards;

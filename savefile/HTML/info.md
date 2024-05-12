@@ -36,8 +36,9 @@
   <div class="bushido-container">
     <div class="bushido-bg">
       <ul class="bushido">
-        <li id="bushihhover" class="titrebushi">
-          <strong>Bushido "武士道"</strong>
+        <li id="bushihhover">
+          <strong class="titlebusido"> <a href="https://www.aejt-jjquero.com/bushido.htm" target="_blank"><samp
+                class="japantiltel">武士道</samp>Bushido</a></strong>
         </li>
         <li id="bushihhover">Code d'honneur du samouraï</li>
         <li id="bushihhover">Courage</li>
@@ -56,11 +57,13 @@
 
     <div class="bushido-text">
       <p class="titletabtwo">Retrouvez nous</p>
-      <ul class="adress">
-        <li class="tiltesection">Adresse</li>
+      <ul id="adresscolor" class="adress">
+        <li class="tiltesection"><a
+            href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
+            target="_blank"> Adresse</li>
         <li>Gymnase Municipal Robert LEFOLL</li>
         <li>1, Rue des Carrouges</li>
-        <li>77124 – Crégy-Les-Meaux</li>
+        <li>77124 – Crégy-Les-Meaux </a></li>
       </ul>
       <ul class="hourly">
         <li class="tiltesection">Heures d’ouverture</li>
@@ -75,8 +78,32 @@
         <li><span class="namedeboffle">M.DEBOFFLE</span> <samp class="numberphone">: 06 89 77 63 64</samp></li>
       </ul>
     </div>
+    <div class="Bureau">
+      <h2 class="Bureautiltle">Le Bureau :</h2>
+      <ul class="personoffice">
+        <li>Président : M. Jean-Paul GRAVALLON</li>
+        <li>Secrétaire : M. Romain MOREAU</li>
+        <li>Trésorière : Mme Patricia DEBOFFLE</li>
+      </ul>
+
+      <h2 class="Bureautiltle">L’encadrement technique :</h2>
+      <ul class="perontech">
+        <li>Directeur technique : M. Bruno DEBOFFLE (Maître "Okuden-Shi-Han" de Ju-Jutsu Traditionnel de l’A.E.J.T.)
+        </li>
+        <li>Assistant technique : M. Wilfrid PRIEUR (3ème stade des valeurs de Ju-Jutsu Traditionnel de l’A.E.J.T.)
+          (Titre "Hon-Mokuroku.")</li>
+      </ul>
+
+      <h2 class="Bureautiltle">Brevets :</h2>
+      <ul class="supervisor">
+        <li>Nos encadrants sont tous titulaires d’un Brevet de Fin de Formation, délivré par l’Académie Européenne de
+          Ju-Jitsu Traditionnel. Ils suivent chaque année une formation de cadre placée sous la responsabilité de notre
+          directeur technique, Maître Jacques-Jean QUERO, professeur de Judo, Ju-Jutsu et méthodes de combat assimilées,
+          diplômé d'état et du Japon, légalement déclaré auprès du ministère de la jeunesse.</li>
+      </ul>
+    </div>
   </div>
-<!--
+  <!--
   <p class="tirecarousel">Fête des enfants</p>
 
   <div id="carousel-container" class="carousel">
@@ -110,11 +137,10 @@
     <button class="next-button">&#10095;</button>
   </div>
 -->
+  <footer>
+    <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>
+    <p class="real">© Construit par Fanster.Dev</p>
+  </footer>
 </body>
-
-<footer>
-  <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>
-  <p class="real">© Construit par Fanster.Dev</p>
-</footer>
 
 </html>
