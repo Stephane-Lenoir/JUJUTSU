@@ -83,7 +83,8 @@
     padding-left: 1rem;
     transform-origin: left center;
     transition: transform 0.3s ease;
-
+    font-weight: bold;
+    font-style: oblique 50deg;;
 }
 
 .bulletin-certificat:hover {
