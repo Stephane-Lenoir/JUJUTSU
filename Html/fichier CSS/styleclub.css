@@ -1,0 +1,47 @@
+.texthistroy {
+    color: #049dd9;
+    font-family: Merriweather, sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2.5em;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.title-history {
+    padding-top: 2rem;
+    text-decoration: underline;
+    color: #049dd9;
+    font-family: "Sedan SC", sans-serif;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+#texthistroy-come:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    color: #948bff;
+}
+
+.dojo-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* Ajoute un peu d'espace au-dessus des photos */
+    padding-bottom: 2rem;
+}
+
+.dojo-photos img {
+    max-width: 45%;
+    /* Définit la largeur maximale de chaque image à 45% de la largeur de la colonne */
+    height: auto;
+    /* Conserve le rapport hauteur/largeur de l'image */
+    margin: 0 1rem;
+    /* Ajoute un peu d'espace autour de chaque image */
+}
+
+.dojoaddress {
+    color: #049dd9;
+    font-family: Merriweather, sans-serif;
+    text-align: center;
+  }

@@ -176,26 +176,3 @@ ul li {
   color: #049dd9;
   font-family: Merriweather, sans-serif;
 }
-
-.dojoaddress {
-  color: #049dd9;
-  font-family: Merriweather, sans-serif;
-  text-align: center;
-}
-
-.dojo-photos {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  /* Ajoute un peu d'espace au-dessus des photos */
-  padding-bottom: 2rem;
-}
-
-.dojo-photos img {
-  max-width: 45%;
-  /* Définit la largeur maximale de chaque image à 45% de la largeur de la colonne */
-  height: auto;
-  /* Conserve le rapport hauteur/largeur de l'image */
-  margin: 0 1rem;
-  /* Ajoute un peu d'espace autour de chaque image */
-}

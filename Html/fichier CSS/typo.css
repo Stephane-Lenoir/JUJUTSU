@@ -146,28 +146,3 @@ footer {
 .quero {
   color: #948bff;
 }
-
-.texthistroy {
-  color: #049dd9;
-  font-family: Merriweather, sans-serif;
-  text-align: center;
-  font-size: 0.9rem;
-  line-height: 2.5em;
-  padding-right: 10rem;
-  padding-left: 10rem;
-}
-
-#title-history {
-  padding-top: 2rem;
-  text-decoration: underline;
-  color: #049dd9;
-  font-family: "Sedan SC", sans-serif;
-  text-align: center;
-  font-size: 2.6rem;
-}
-
-#texthistroy-come:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease;
-  color: #948bff;
-}
