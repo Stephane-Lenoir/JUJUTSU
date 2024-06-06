@@ -37,21 +37,38 @@
     </header>
     <main>
         <h2 class="tiltle-contact">CONTACT</h2>
-        <div class="fonction">Directeur technique</div>
-        <div class="name-responsable">M. Bruno DEBOFFLE</div>
-        <div class="contact-details">Tél – SMS : 06 89 77 63 64 E-Mail : <a href="mailto:brunodeboffle@sfr.fr"
-                id="link-resp">brunodeboffle@sfr.fr</a>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="fonction">Directeur technique</div>
+                <div class="name-responsable">M. Bruno DEBOFFLE</div>
+                <div class="contact-details">Tél – SMS : 06 89 77 63 64 E-Mail : <a href="mailto:brunodeboffle@sfr.fr"
+                        id="link-resp">brunodeboffle@sfr.fr</a>
+                </div>
+
+                <div class="fonction">Président</div>
+                <div class="name-responsable">M. Jean-Paul GRAVALLON</div>
+                <div class="contact-details">Tél SMS : 06 15 47 82 99 E-mail : <a
+                        href="mailto:gravallon.jeanpaul@neuf.fr" id="link-resp">gravallon.jeanpaul@neuf.fr</a></div>
+
+                <div class="fonction">Secrétariat – Inscriptions</div>
+                <div class="name-responsable">Romain MOREAU</div>
+                <div class="contact-details">Tél – SMS : 06 49 23 40 95 E-mail : <a href="mailto:scaelin@hotmail.com"
+                        id="link-resp">scaelin@hotmail.com</a></div>
+            </div>
+            <div class="contact-form">
+                <form action="/submit_form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="" placeholder="Votre nom">
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="name" name="prenom" value="" placeholder="Votre prenom">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="" placeholder="Ici votre adresse mail">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Votre message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-
-        <div class="fonction">Président</div>
-        <div class="name-responsable">M. Jean-Paul GRAVALLON</div>
-        <div class="contact-details">Tél SMS : 06 15 47 82 99 E-mail : <a href="mailto:gravallon.jeanpaul@neuf.fr"
-                id="link-resp">gravallon.jeanpaul@neuf.fr</a></div>
-
-        <div class="fonction">Secrétariat – Inscriptions</div>
-        <div class="name-responsable">Romain MOREAU</div>
-        <div class="contact-details">Tél – SMS : 06 49 23 40 95 E-mail : <a href="mailto:scaelin@hotmail.com"
-                id="link-resp">scaelin@hotmail.com</a></div>
     </main>
     <footer>
         <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>

@@ -8,7 +8,7 @@
 }
 
 .fonction {
-    padding-top: 2rem;
+    padding-top: 5rem;
     text-decoration: underline;
     color: #049dd9;
     font-family: "Sedan SC", sans-serif;
@@ -36,3 +36,82 @@
     font-size: 1.2rem;
 }
 
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    justify-content: space-around;
+    padding-left: 5rem;
+    margin-top: 3rem;
+}
+
+.contact-info {
+    grid-column: 1;
+}
+
+.contact-form {
+    grid-column: 2;
+    margin-top: 5rem;
+    overflow: inherit;
+    width: 100%;
+    font-family: "Briem Hand", sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    color: #049dd9;
+}
+
+.contact-form textarea {
+    height: 9.5rem; /* Taille par défaut plus grande */
+    min-height: 9.5rem;; /* Taille minimale */
+    max-height: 19rem; /* Limite la taille maximale */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 70%;
+    max-width: 50%;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 70%;
+    max-width: 50%;
+    border-radius: 2rem;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-form {
+        grid-column: 2;
+        width: 100%;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 70%; /* Ajustez cette valeur selon vos besoins */
+        max-width: 31.25rem; /* Limite la largeur maximale (500px) */
+    }
+}
