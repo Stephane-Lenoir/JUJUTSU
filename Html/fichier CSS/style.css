@@ -104,3 +104,48 @@ button {
   transition: opacity 1s ease;
   /* Ajouter une transition pour l'opacité */
 }
+
+/* Masquer la liste de liens par défaut */
+.vaflex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styliser le bouton de menu burger */
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #948bff;
+  padding: 0.5rem;
+  display: none;
+}
+
+/* Styliser l'icône du menu burger */
+.menu-icon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Styliser le lien actif */
+.menu a.active {
+  color: red;
+}
+
+/* Afficher le bouton de menu burger sur les écrans de téléphone portable */
+@media screen and (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  #nav-menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./fichier CSS/stylepageaccueil.css">
   <link rel="stylesheet" href="./fichier CSS/typo.css">
   <script src="./fichier JS/index.js" defer></script>
+  <script src="./fichier JS/buger.js" defer></script>
 </head>
 
 <body>
@@ -43,26 +44,28 @@
       <h2 class="titre2">Méthode Wajutsu sans compétition</h2>
       <div class="page-container">
         <div class="banner-container">
-          <img class="imgtitre hidden" src="./img samourai/baniere.webp" alt="mont fuji">
+          <img class="imgtitre-hidden" src="./img samourai/baniere.webp" alt="mont fuji">
         </div>
       </div>
       <div class="content-container">
         <h3 class="sous"> <a
             href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e8a04c9567e68d:0xe1ee84e3a4b818a2?sa=X&ved=1t:8290&ictx=111"
             target="_blank">Crégy-les-Meaux</a></h3>
-      </div>
-
-      <div class="nav-container">
-        <nav class="vaflex">
-          <p class="menu"><a href="info.html">Infos</a></p>
-          <p class="menu"><a href="ecole.html">L'école</a></p>
-          <p class="menu"><a href="club.html">Le club</a></p>
-          <p class="menu"><a href="inscription.html">Inscriptions</a></p>
-          <p class="menu"><a href="activites.html">Activités</a></p>
-          <p class="menu"><a href="technique.html">La technique</a></p>
-          <p class="menu"><a href="contac.html">Contact</a></p>
-        </nav>
-      </div>
+      </div>      
+        <div>
+          <button class="menu-btn" id="menu-toggle">
+            <span class="menu-icon">&#9776;</span>
+          </button>
+          <nav class="vaflex" id="nav-menu">
+            <p class="menu"><a href="info.html">Infos</a></p>
+            <p class="menu"><a href="ecole.html">L'école</a></p>
+            <p class="menu"><a href="club.html">Le club</a></p>
+            <p class="menu"><a href="inscription.html">Inscriptions</a></p>
+            <p class="menu"><a href="activites.html">Activités</a></p>
+            <p class="menu"><a href="technique.html">La technique</a></p>
+            <p class="menu"><a href="contac.html">Contact</a></p>
+          </nav>
+        </div>     
     </header>
     <footer>
       <p class="deuxmille">2024 Ju-jutsu Traditionnel</p>

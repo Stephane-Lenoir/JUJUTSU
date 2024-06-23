@@ -1,5 +1,5 @@
 #bushihhover-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: Merriweather, sans-serif;
   text-decoration: underline overline #4f1bbf;
   text-underline-offset: 0.2em; 
@@ -41,7 +41,6 @@
 .titlebusido {
   font-size: 1.8rem;
 }
-
 
 .japantiltel {
   writing-mode: vertical-rl;

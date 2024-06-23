@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".imgtitre").classList.remove("hidden");
             siteDefinitif.classList.remove("hidden");
             siteDefinitif.style.opacity = 1;
-          }, 1);
+          }, 1000);
         }
-      }, index * 1); // Décaler chaque animation de 1 seconde
+      }, index * 100); // Décaler chaque animation de 1 seconde
     });
   });
 
