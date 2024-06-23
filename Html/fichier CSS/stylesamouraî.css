@@ -119,11 +119,45 @@
   .samurai {
     width: 150%; /* Ajustement de la taille pour les écrans plus petits */
   }
-  .imgtitre hidden
+  .banner-container {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .samurai {
     width: 150%; /* Ajustement supplémentaire pour les écrans très petits */
+  }
+  .banner-container {
+    width: 80%;
+  }
+}
+/* stylesamourai.css */
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-container img {
+  max-width: 100%; /* Image adaptative en largeur */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  transition: all 0.3s ease;
+}
+
+/* Media Queries pour les écrans plus petits */
+
+@media screen and (max-width: 768px) {
+  .banner-container {
+    height: 19rem; /* Ajustement de la hauteur pour les écrans moyens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-container {
+    height: 12rem; /* Ajustement de la hauteur pour les petits écrans */
   }
 }

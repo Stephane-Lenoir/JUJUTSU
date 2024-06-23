@@ -149,3 +149,26 @@ button {
     flex-direction: column;
   }
 }
+/* Styles pour l'image de la bannière */
+.imgtitre {
+  width: 100% !important; /* Occupe la largeur maximale disponible */
+  height: auto !important; /* Ajuste la hauteur proportionnellement */
+  display: block !important; /* Assure un comportement en ligne */
+  max-width: 100% !important; /* Garantit que l'image ne dépasse pas la largeur de son conteneur */
+  margin: 0 auto !important; /* Centre l'image horizontalement si nécessaire */
+}
+
+/* Media query pour gérer la réactivité de l'image */
+@media screen and (max-width: 768px) {
+  .imgtitre {
+    max-width: 80% !important; /* Assure que l'image n'excède pas la largeur de l'écran */
+    height: auto; /* Ajuste la hauteur proportionnellement */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imgtitre {
+    max-width: 80% !important; /* Assure que l'image n'excède pas la largeur de l'écran */
+    height: auto; /* Ajuste la hauteur proportionnellement */
+  }
+}
