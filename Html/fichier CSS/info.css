@@ -1,8 +1,18 @@
+#bushihhover-title {
+  font-size: 1.2rem;
+  font-family: Merriweather, sans-serif;
+  text-decoration: underline overline #4f1bbf;
+  text-underline-offset: 0.2em; 
+}
+
+#bushihhover-title:hover {
+  color: #ffcfea;
+}
+
 .bushido-container {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  ;
   padding-top: 5rem;
 }
 
@@ -175,4 +185,9 @@ ul li {
 .supervisor {
   color: #049dd9;
   font-family: Merriweather, sans-serif;
+}
+
+#code {
+  font-family: "Sedan SC", serif !important;
+  font-size: 2rem;
 }

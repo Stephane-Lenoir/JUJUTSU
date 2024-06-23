@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".imgtitre").classList.remove("hidden");
             siteDefinitif.classList.remove("hidden");
             siteDefinitif.style.opacity = 1;
-          }, 1000);
+          }, 1);
         }
-      }, index * 1000); // Décaler chaque animation de 1 seconde
+      }, index * 1); // Décaler chaque animation de 1 seconde
     });
   });
 
@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
     bottomRightViolet.style.transform = "translate(50%, 50%) scaleX(2) scaleY(0.5)";
   }, 8000);
 
-  content.addEventListener('animationend', function() {
+  content.addEventListener('animationend', function () {
     // Empêcher les animations de se réactiver lorsque l'utilisateur clique sur le bouton "Précédent" ou "Suivant"
-    window.onpopstate = function(event) {
+    window.onpopstate = function (event) {
       history.pushState(null, null, document.location.href);
     }
   });
