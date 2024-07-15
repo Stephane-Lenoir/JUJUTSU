@@ -13,17 +13,10 @@
 }
 
 .imgtitre {
-  width: 90%;
+  width: 100%;
   max-width: 90vw;
   height: auto;
-  padding-left: 5rem;
-}
-
-@media (max-width: 768px) {
-  .imgtitre {
-    height: 50vh;
-    object-fit: cover;
-  }
+  border-radius: 1rem;
 }
 
 .content-container {

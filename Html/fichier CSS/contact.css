@@ -1,3 +1,4 @@
+
 .tiltle-contact {
     padding-top: 2rem;
     text-decoration: underline;
@@ -39,10 +40,10 @@
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    height: 40vh;
     justify-content: space-around;
     padding-left: 5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .contact-info {
@@ -98,6 +99,11 @@
     background-color: #45a049;
 }
 
+footer {
+    display: flex;
+    margin-top: 15rem;
+}
+
 @media only screen and (min-width: 420px) and (max-width: 1024px) {
     .contact-container {
         grid-template-columns: 1fr 1fr;
@@ -108,10 +114,35 @@
         width: 100%;
     }
 
+    footer {
+        display: flex;
+        margin-top: 15rem;
+    }
+
     .contact-form input[type="text"],
     .contact-form input[type="email"],
     .contact-form textarea {
         width: 70%; /* Ajustez cette valeur selon vos besoins */
         max-width: 31.25rem; /* Limite la largeur maximale (500px) */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr; /* Prend toute la largeur disponible */
+    }
+
+    .contact-form {
+        grid-column: 1; /* Placé sous .contact-info */
+    }
+
+    /* Ajustez également la largeur des champs du formulaire si nécessaire */
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%; /* Prend toute la largeur disponible */
+    }
+    footer {
+     margin-top: 55rem;
     }
 }

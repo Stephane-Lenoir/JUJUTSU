@@ -131,7 +131,7 @@ button {
 
 /* Styliser le lien actif */
 .menu a.active {
-  color: red;
+  color: 04bf7b;
 }
 
 /* Afficher le bouton de menu burger sur les écrans de téléphone portable */

@@ -1,3 +1,6 @@
+html, body {
+  overflow-x: hidden;
+}
 .carousel-container {
     width: 100%;
     display: flex;
@@ -6,6 +9,7 @@
     justify-content: center;
     margin-bottom: 2.5rem;
     position: relative;
+    padding: 1rem;
 }
 
 #carousel-container-1 {
@@ -32,10 +36,12 @@
 
 .title-container1 {
     right: 30%;
+    padding: 0 1rem;
 }
 
 .title-container2 {
     left: 30%;
+    padding: 0 1rem;
 }
 
 .tirecarousel1 {
@@ -117,3 +123,99 @@ color: #04bf7b;
     height: 100%;
 }
 
+#title-kagami,
+#title-collectif {
+    position: absolute;
+    top: 20px; /* Ajustez la valeur selon votre préférence */
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#title-kagami {
+    right: 30%;
+    padding: 0 1rem;
+}
+
+#title-collectif {
+    left: 30%;
+    padding: 0 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+/* Ajoutez ces requêtes média à votre fichier CSS */
+@media screen and (max-width: 1566px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .title-container1,
+    .title-container2 {
+      width: 100%;
+      top: 10px;
+      transform: none;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 5rem;
+    }
+  
+    .tirecarousel1,
+    .tirecarousel2 {
+      margin: 0;
+    }
+  
+    #carousel-container-1,
+    #carousel-container-2 {
+      padding-top: 8rem;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .carousel-container {
+      padding: 1rem 0;
+    }
+  
+    #carousel-container-1,
+    #carousel-container-2 {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 8rem;
+    }
+  
+    .title-container1,
+    .title-container2 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .carousel-container {
+      padding: 1rem 0;
+    }
+  
+    #carousel-container-1,
+    #carousel-container-2 {
+      padding-top: 8rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  
+    .title-container1,
+    .title-container2 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel {
+      height: 200px;
+    }
+  }
+  

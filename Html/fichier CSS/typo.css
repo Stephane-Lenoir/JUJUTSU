@@ -7,6 +7,8 @@
 body {
   cursor: url('../img samourai/curseur.png'), auto;
   background-color: #Afe9ff;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 h1 {

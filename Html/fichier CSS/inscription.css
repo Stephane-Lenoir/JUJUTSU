@@ -1,6 +1,5 @@
 #inscriptions {
-    padding-left: 5rem;
-    padding-right: 2.5rem;
+    padding: 2rem;
 }
 
 .tiltle-registration {
@@ -103,4 +102,32 @@
 
 .bulletin-certificat a:hover {
     color: #BB1AC1;
+}
+
+/* Ajout de règles pour rendre la page responsive */
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    /* Réduire la taille de la police pour les petits écrans */
+    .tiltle-registration {
+        font-size: 2rem;
+    }
+
+    .section-title-registration {
+        font-size: 1.2rem;
+    }
+
+    .text-registration {
+        font-size: 0.9rem;
+    }
+
+    .table-registration {
+        font-size: 0.9rem;
+    }
+
+    .namedeboffle-registartion {
+        font-size: 1.2rem;
+    }
+
+    .numberphone-registartion {
+        font-size: 1.2rem;
+    }
 }
